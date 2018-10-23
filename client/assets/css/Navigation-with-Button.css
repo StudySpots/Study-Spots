@@ -115,6 +115,8 @@ body {
 .title-header {
   padding-top: 100px;
   text-align: center;
+  background-color: #d3d3d3;
+  padding-bottom: 50px;
 }
 
 .h1, h1 {
@@ -128,8 +130,10 @@ body {
 }
 
 .search-bar {
-  padding-top: 50px;
+  padding-top: 25px;
   text-align: center;
+  background-color: #d3d3d3;
+  padding-bottom: 25px;
 }
 
 .study-spot {
