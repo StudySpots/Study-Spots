@@ -1595,6 +1595,356 @@
         ],
         "type": "Point"
       }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "SBH",
+        "name": "Steinbrenner Band Hall"
+      },
+      "geometry": {
+        "coordinates": [
+                     -82.3549302,
+	           29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "SIS",
+        "name": "Sisler Hall - Chemistry Research Bldg"
+      },
+      "geometry": {
+        "coordinates": [
+                     -82.34416809999999,
+	            29.6499992
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "SMA",
+        "name": "Library East, Smathers"
+      },
+      "geometry": {
+        "coordinates": [
+                      -82.34281469999999,
+	            29.6515513
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "SOC",
+        "name": "Stephen C. O'Connell Center Pool"
+      },
+      "geometry": {
+        "coordinates": [
+                -82.3409362,
+	            29.6462255
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "SPRC",
+        "name": "Springs Commons Building"
+      },
+      "geometry": {
+        "coordinates": [
+                -82.34048229999999,
+	          29.6423855
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "SPRT",
+        "name": "IFAS Support Services"
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.3443187,
+	          29.6465201
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "SSB",
+        "name": "Criser Hall"
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.34160899999999,
+	           29.6501881
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "STA",
+        "name": "Stadium, Ben Hill Griffin"
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.3485788,
+	           29.6499357
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "STZ",
+        "name": "Stuzin Hall - Business Building"
+      },
+      "geometry": {
+        "coordinates": [
+	            -82.3411782,
+		29.650815
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "SWC",
+        "name": "SW Recreation Complex"
+      },
+      "geometry": {
+        "coordinates": [
+	          -82.8187822,
+		27.8920203
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "THC",
+        "name": "Teaching Hospital and Clinics, Shands"
+      },
+      "geometry": {
+        "coordinates": [
+	         -82.3928509,
+		29.659113
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "TIG",
+        "name": "Tigert Hall - UF Administration"
+      },
+      "geometry": {
+        "coordinates": [
+	        -82.3549302,
+		29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "TUR",
+        "name": "Turlington Hall"
+      },
+      "geometry": {
+        "coordinates": [
+	         -82.343747,
+		29.6489642
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "UST",
+        "name": "Ustler Hall"
+      },
+      "geometry": {
+        "coordinates": [
+	        -82.3468705,
+		29.65044320000001
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "VAN",
+        "name": "Van Fleet Hall - ROTC"
+      },
+      "geometry": {
+        "coordinates": [
+	        -82.3511003,
+		29.6485548
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "VET",
+        "name": "Veterinary Science"
+      },
+      "geometry": {
+        "coordinates": [
+	         -82.3502601,
+		29.6332527
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "VMAW",
+        "name": "Veterinary Medicine - Academic Wing"
+      },
+      "geometry": {
+        "coordinates": [
+	         -82.3487936,
+		29.6338194
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "WAL",
+        "name": "Walker Hall"
+      },
+      "geometry": {
+        "coordinates": [
+	        -82.34153959999999,
+		29.64937919999999
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "WALC",
+        "name": "Wallace Hall"
+      },
+      "geometry": {
+        "coordinates": [
+	         -85.9915726,
+		33.9958184
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "WAU",
+        "name": "Lake Wauburg"
+      },
+      "geometry": {
+        "coordinates": [
+	          -82.30313,
+		29.5298432
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "WEIL",
+        "name": "Weil Hall"
+      },
+      "geometry": {
+        "coordinates": [
+	          -82.3485109,
+		29.64838079999999
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "WEIM",
+        "name": "Weimer Hall"
+      },
+      "geometry": {
+        "coordinates": [
+	   -82.34752759999999,
+		29.6478351
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "WM",
+        "name": "Williamson Hall"
+      },
+      "geometry": {
+        "coordinates": [
+	  -82.3549302,
+		 29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "WSFL",
+        "name": "Weed Sciences Field Building"
+      },
+      "geometry": {
+        "coordinates": [
+	  -82.36376249999999,
+		 29.6391841     
+      ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "YON",
+        "name": "Yon Hall"
+      },
+      "geometry": {
+        "coordinates": [
+	  -82.3478071,
+		29.6498808
+       ],
+        "type": "Point"
+      }
     }
    ],
   "type": "FeatureCollection"
