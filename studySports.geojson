@@ -1,0 +1,103 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "AAF",
+        "name": "Academic Advisement - Farrior Hall"
+      },
+      "geometry": {
+        "coordinates": [
+          -82.34563860000002,
+	29.6502323
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "AND",
+        "name": "Academic Advisement - Farrior Hall"
+      },
+      "geometry": {
+        "coordinates": [
+          -82.3418895,
+	29.651568
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "ANS",
+        "name": "Animal Science"
+      },
+      "geometry": {
+        "coordinates": [
+          -82.351627,
+	 29.631197
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "ARB",
+        "name": "Academic Research - Health Sciences Center"
+      },
+      "geometry": {
+        "coordinates": [
+           -82.343777,
+	  29.6399441
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "ARB",
+        "name": "Academic Research - Health Sciences Center"
+      },
+      "geometry": {
+        "coordinates": [
+           -82.343777,
+	  29.6399441
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "ARCH",
+        "name": "Architecture"
+      },
+      "geometry": {
+        "coordinates": [
+           -82.3403431,
+	  29.6477756
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "ASF",
+        "name": "Elmore Hall"
+      },
+      "geometry": {
+        "coordinates": [
+            -82.3661789,
+	   29.6434801
+        ],
+        "type": "Point"
+      }
+    }
+   ],
+  "type": "FeatureCollection"
+}
