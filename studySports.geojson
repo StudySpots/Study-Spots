@@ -97,6 +97,314 @@
         ],
         "type": "Point"
       }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "AUD",
+        "name": "University Auditorium"
+      },
+      "geometry": {
+        "coordinates": [
+             -82.3428428,
+	    29.649026
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BAR",
+        "name": "Bartram Hall"
+      },
+      "geometry": {
+        "coordinates": [
+              -82.34440939999999,
+	  29.6439198
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BEC",
+        "name": "Beaty Commons"
+      },
+      "geometry": {
+        "coordinates": [
+              -82.3404853,
+	  29.6441511
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BEN",
+        "name": "Beaty Commons"
+      },
+      "geometry": {
+        "coordinates": [
+              -82.3549302,
+	 29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BGH",
+        "name": "Bruton-Geer Hall"
+      },
+      "geometry": {
+        "coordinates": [
+              -82.3590286,
+	 29.6492321
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BLK",
+        "name": "Black Hall - Environmental Science"
+      },
+      "geometry": {
+        "coordinates": [
+              -82.3484143,
+	 29.6484088
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BME",
+        "name": "Broad Biomedical Engineering Building"
+      },
+      "geometry": {
+        "coordinates": [
+               -82.3775697,
+	 28.5663939
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BMS",
+        "name": "Biomedical Sciences"
+      },
+      "geometry": {
+        "coordinates": [
+               -82.3455827,
+	 29.6406329
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BRO",
+        "name": "Broward Hall"
+      },
+      "geometry": {
+        "coordinates": [
+               -82.3420708,
+	 29.6465352
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BRT",
+        "name": "Bryant Space Science Center"
+      },
+      "geometry": {
+        "coordinates": [
+               -82.34574870000002,
+	 29.6488872
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BRY",
+        "name": "Bryan Hall"
+      },
+      "geometry": {
+        "coordinates": [
+               -82.3402381,
+	 29.65131189999999
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BSU",
+        "name": "Veterinary Medicine - Basic Sciences"
+      },
+      "geometry": {
+        "coordinates": [
+               -88.22091189999999,
+	 40.0929927
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BSU",
+        "name": "Veterinary Medicine - Basic Sciences"
+      },
+      "geometry": {
+        "coordinates": [
+               -88.22091189999999,
+	 40.0929927
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "CAR",
+        "name": "Carleton Auditorium"
+      },
+      "geometry": {
+        "coordinates": [
+               -82.34172290000001,
+	 29.6490716
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "CBD",
+        "name": "Classroom Building 105"
+      },
+      "geometry": {
+        "coordinates": [
+               -82.3429757,
+	 29.6529864
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "CGRC",
+        "name": "Cancer/Genetics Research"
+      },
+      "geometry": {
+        "coordinates": [
+               -82.3516905,
+	 29.6381861
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "CHE",
+        "name": "Chemical Engineering"
+      },
+      "geometry": {
+        "coordinates": [
+              -82.3549302,
+	 29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "CLB",
+        "name": "Chemistry Laboratory Building"
+      },
+      "geometry": {
+        "coordinates": [
+              -82.344152,
+	  29.6508873
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "COM",
+        "name": "Communicore - Health Sciences Center"
+      },
+      "geometry": {
+        "coordinates": [
+              -82.343777,
+	  29.6399441
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "CON",
+        "name": "Constans Theatre"
+      },
+      "geometry": {
+        "coordinates": [
+              -82.346482,
+	  29.6460125
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "CRR",
+        "name": "Carr Hall"
+      },
+      "geometry": {
+        "coordinates": [
+              -82.3549302,
+	   29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "CSE",
+        "name": "Computer Science Engineering"
+      },
+      "geometry": {
+        "coordinates": [
+              -82.344042,
+	   29.64811109999999,
+        ],
+        "type": "Point"
+      }
     }
    ],
   "type": "FeatureCollection"
