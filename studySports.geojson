@@ -1259,6 +1259,342 @@
         ],
         "type": "Point"
       }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "ODAA",
+        "name": "Office of Development and Alumni Affairs"
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.343434,
+	        29.6398626
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "OBS",
+        "name": "Student Observator"
+      },
+      "geometry": {
+        "coordinates": [
+                 -122.181827,
+	        37.4191274
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PCPA",
+        "name": "Phillips Center for the Performing Arts"
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.36930579999999,
+	        29.6352583
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PEA",
+        "name": "Peabody Hall"
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3419924,
+	        29.6500771
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PHL",
+        "name": "Phelps Laboratory"
+      },
+      "geometry": {
+        "coordinates": [
+                   -73.8639555,
+	        41.1091195
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PKY",
+        "name": "P. K. Yonge Developmental Research School, 1080 SW 11 Street"
+      },
+      "geometry": {
+        "coordinates": [
+                    -82.3346766,
+	        29.64006539999999
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "POOL",
+        "name": "Florida Pool"
+      },
+      "geometry": {
+        "coordinates": [
+                    -82.3409362,
+	        29.6462255
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "POW",
+        "name": "Powell Hall - New Museum of Natural History"
+      },
+      "geometry": {
+        "coordinates": [
+                    -82.3704006,
+	         29.6358224
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PPD",
+        "name": "Physical Plant Offices"
+      },
+      "geometry": {
+        "coordinates": [
+                     -82.3705092,
+	          29.6443197
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PRL",
+        "name": "Food and Environmental Toxicology Lab"
+      },
+      "geometry": {
+        "coordinates": [
+                     -82.3549302,
+	          29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PSB",
+        "name": "Shands Patient Services"
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3423068,
+	          29.6388866
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PSF",
+        "name": "Plant Science Facility"
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3549302,
+	         29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PST",
+        "name": "Particle Sciences and Technology"
+      },
+      "geometry": {
+        "coordinates": [
+                  -75.37462699999999,
+	         40.671417
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PSY",
+        "name": "Psychology"
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.38416389999999,
+	          29.67284690000001
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PUGH",
+        "name": "Pugh Hall"
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.34546309999999,
+	          29.6494289
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "RCD",
+        "name": "Recreation Center Dining"
+      },
+      "geometry": {
+        "coordinates": [
+                    -82.3464309,
+	          29.650204
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "REI",
+        "name": "Reitz Union"
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.3476523,
+	          29.6463395
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "RFC",
+        "name": "Recreation and Fitness Center"
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.34675969999999,
+	          29.6501107
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "RHN",
+        "name": "Rhines Hall"
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.34902249999999,
+	          29.6476341
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "RLA",
+        "name": "Reed Lab"
+      },
+      "geometry": {
+        "coordinates": [
+                  -71.0979212,
+	           42.31957420000001
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "RL1",
+        "name": "Research Laboratory"
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.371461,
+	           29.634407
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "RNK",
+        "name": "Rinker Hall"
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.34316059999999,
+	           29.64695920000001
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "ROG",
+        "name": "Rogers Hall"
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.3449972,
+	           29.6449409
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "ROL",
+        "name": "Rols Hall"
+      },
+      "geometry": {
+        "coordinates": [
+                    -82.3444921,
+	           29.6492897
+        ],
+        "type": "Point"
+      }
     }
    ],
   "type": "FeatureCollection"
