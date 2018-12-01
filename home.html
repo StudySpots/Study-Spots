@@ -20,18 +20,23 @@
   <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
   <style>
     body {
-      margin: 0;
-      padding :0;
+      margin: 2;
+      padding :1;
     }
     .map {
       position: absolute;
-      top: 0;
+      top: 10;
       bottom: 0;
-      width: 100%;
+      width: 70%;
+      height: 80%;
     }
   </style>
 </head>
 <body>
+<section class="title-header">
+        <h1 style="color: rgb(52, 58, 64);">Study Spots</h1>
+        <h2 style="color: rgb(52, 58, 64);">Find a place to learn easily.</h2>
+    </section>
 <div id='map-popups-js' class='map'> </div>
 <script>
 L.mapbox.accessToken = 'pk.eyJ1IjoieWluZ3dlbmh1YW5nIiwiYSI6ImNqb2dsdGZnbTBnanEzcXF2bDJseDgzaG8ifQ.k4xY67lG4MkbzMFDHjDK5A';
@@ -139,22 +144,19 @@ var geojson = [
 {
       "type": "Feature",
       "properties": {
-        "code": "ARB",
-        "name": "Academic Research - Health Sciences Center"
-      },
-      "geometry": {
-        "coordinates": [
-           -82.343777,
-	  29.6399441
-        ],
-        "type": "Point"
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
         "code": "ARCH",
-        "name": "Architecture"
+        "name": "Architecture",
+	"address": "1389 Stadium Rd, Gainesville, FL 32611, United States",
+        "indoors": "Indoor & Outdoor",
+        "quietSpot" : "Not Quiet Spot",
+	"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShnBo8bgp8SGH1OPfalXjOmoM5_lahUhaxO9obgb6z69sbtWPYkg",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -168,7 +170,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "ASF",
-        "name": "Elmore Hall"
+        "name": "Elmore Hall",
+	"address": "Elmore Hall for Administrative Services, Gainesville, FL 32607, USA",
+        "indoors": "Indoor & Outdoor",
+        "quietSpot" : "Not Quiet Spot",
+	"image": "http://web.uflib.ufl.edu/ufarch/elmore.jpg",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -182,7 +195,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "AUD",
-        "name": "University Auditorium"
+        "name": "University Auditorium",
+	"address": "333 Newell Dr, Gainesville, FL 32611, United States",
+        "indoors": "Indoor & Outdoor",
+        "quietSpot" : "Not Quiet Spot",
+        "image": "http://iml.jou.ufl.edu/projects/Spring04/Wallace/UMA3.jpg",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -196,7 +220,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "BAR",
-        "name": "Bartram Hall"
+        "name": "Bartram Hall",
+	"address": "Bartram Hall, Gainesville, FL 32603, USA",
+        "indoors": "Indoor",
+        "quietSpot" : "Not Quiet Spot",
+        "image": "http://web.uflib.ufl.edu/ufarch/bartram2.jpg",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -210,7 +245,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "BEC",
-        "name": "Beaty Commons"
+        "name": "Beaty Commons",
+	"address": "Gainesville, FL 32603, United States",
+        "indoors": "Indoor",
+        "quietSpot" : "Not Quiet Spot",
+        "image": "https://bloximages.chicago2.vip.townnews.com/alligator.org/content/tncms/assets/v3/editorial/e/fd/efd3d2b6-57a5-11e1-986a-0019bb2963f4/4f3b5d6845be4.image.jpg?resize=400%2C271",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -224,7 +270,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "BEN",
-        "name": "Beaty Commons"
+        "name": "Benton Hall",
+	"adress": "Gainesville, FL 32603, United States",
+	"indoors": "Indoor",
+        "quietSpot" : "Not Quiet Spot",
+	"image": "https://upload.wikimedia.org/wikipedia/commons/2/21/UF_BentonHall.jpg",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -238,7 +295,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "BGH",
-        "name": "Bruton-Geer Hall"
+        "name": "Bruton-Geer Hall",
+	"address": "Bruton-Geer Hall, Gainesville, FL 32603, United States",
+        "indoors": "Indoor & Outdoor",
+        "quietSpot" : "Not Quiet Spot",
+	"image": "http://web.uflib.ufl.edu/ufarch/brutongeer2.jpg",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -252,7 +320,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "BLK",
-        "name": "Black Hall - Environmental Science"
+        "name": "Black Hall - Environmental Science",
+	"address": "365 Weil Hall, Gainesville, FL 32611, United States",
+        "indoors": "Indoor",
+        "quietSpot" : "Not Quiet Spot",
+        "image": "http://web.uflib.ufl.edu/ufarch/black.jpg",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -266,7 +345,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "BME",
-        "name": "Broad Biomedical Engineering Building"
+        "name": "Broad Biomedical Engineering Building",
+	"adress": "919 N Broad St, Brooksville, FL 34601, United States",
+        "indoors": "Indoor",
+        "quietSpot" : "Not Quiet Spot",
+        "image": "http://3o15h033zmpwracwx2i00rqx.wpengine.netdna-cdn.com/wp-content/uploads/2018/08/uf-health-jacksonville-trauma.jpg",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -280,7 +370,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "BMS",
-        "name": "Biomedical Sciences"
+        "name": "Biomedical Sciences",
+	"address": "1275 Center Dr, Gainesville, FL 32611, United State",
+        "indoors": "Indoor",
+        "quietSpot" : "Not Quiet Spot",
+	"image": "http://www.whiting-turner.com/portfolio/industry/highered/11050/images/0009.jpg",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -294,7 +395,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "BRO",
-        "name": "Broward Hall"
+        "name": "Broward Hall",
+	"address": "Broward Hall, 680 Broward Dr, Gainesville, FL 32603, USA",
+        "indoors": "Indoor",
+        "quietSpot" : "Not Quiet Spot",
+	"image": "http://web.uflib.ufl.edu/ufarch/broward2.jpg",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -308,7 +420,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "BRT",
-        "name": "Bryant Space Science Center"
+        "name": "Bryant Space Science Center",
+	"address": "Gainesville, FL 32603, United States",
+        "indoors": "Indoor",
+        "quietSpot" : "Not Quiet Spot",
+	"image": "https://media.glassdoor.com/l/3c/d5/fc/f7/bryant-space-science-center.jpg",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -322,7 +445,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "BRY",
-        "name": "Bryan Hall"
+        "name": "Bryan Hall",
+	"address": "Gainesville, FL 32603, United States",
+        "indoors": "Indoor",
+        "quietSpot" : "Not Quiet Spot",
+	"image": "https://historic.facilities.ufl.edu/Images/bryan_hall_images/bryanhallsmall.jpg",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -336,21 +470,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "BSU",
-        "name": "Veterinary Medicine - Basic Sciences"
-      },
-      "geometry": {
-        "coordinates": [
-               -88.22091189999999,
-	 40.0929927
-        ],
-        "type": "Point"
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-        "code": "BSU",
-        "name": "Veterinary Medicine - Basic Sciences"
+        "name": "Veterinary Medicine - Basic Sciences",
+	"adress": "2001 S Lincoln Ave, Urbana, IL 61802, United States",
+        "indoors": "Indoor",
+        "quietSpot" : "Not Quiet Spot",
+	"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/UF-VetMedFoodAnimalClinic.JPG/240px-UF-VetMedFoodAnimalClinic.JPG",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -364,7 +495,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "CAR",
-        "name": "Carleton Auditorium"
+        "name": "Carleton Auditorium",
+	"address": "1475 Union Rd, Gainesville, FL 32611, United States",
+        "indoors": "Indoor & Outdoor",
+        "quietSpot" : "Not Quiet Spot",
+	"image": "https://historic.facilities.ufl.edu/Images/carlton/carlton.jpg",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -378,7 +520,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "CBD",
-        "name": "Classroom Building 105"
+        "name": "Classroom Building 105",
+	"address": "Classroom Bldg 105, Gainesville, FL 32603, USA",
+        "indoors": "Indoor",
+        "quietSpot" : "Including Quiet Spot & Group Spot",
+	"image": "https://i.ibb.co/ykk7JNx/Screen-Shot-2018-12-01-at-10-43-24-AM.png",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -392,7 +545,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "CGRC",
-        "name": "Cancer/Genetics Research"
+        "name": "Cancer/Genetics Research",
+	"address": "2033 Mowry Rd, Gainesville, FL 32608, United States",
+        "indoors": "Indoor",
+        "quietSpot" : "Not Quiet Spot",
+	"image": "https://com-education-admissions.sites.medinfo.ufl.edu/files/2011/08/cancer-genetics-research-complex.jpg",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -406,7 +570,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "CHE",
-        "name": "Chemical Engineering"
+        "name": "Chemical Engineering",
+	"address": "Gainesville, FL 32611, United States",
+        "indoors": "Indoor",
+        "quietSpot" : "Not Quiet Spot",
+	"image": "http://web.uflib.ufl.edu/ufarch/chemeng.jpg",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -420,7 +595,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "CLB",
-        "name": "Chemistry Laboratory Building"
+        "name": "Chemistry Laboratory Building",
+	"address": "125 Buckman Dr, Gainesville, FL 32611, United States",
+        "indoors": "Indoor & Outdoor",
+	"image": "http://web.uflib.ufl.edu/ufarch/chemistrylab.jpg",
+        "quietSpot" : "Not Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -434,7 +620,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "COM",
-        "name": "Communicore - Health Sciences Center"
+        "name": "Communicore - Health Sciences Center",
+	"address": "1600 SW Archer Rd, Gainesville, FL 32610, United State",
+        "indoors": "Indoor & Outdoor",
+	"image": "http://old.library.health.ufl.edu/about/VirtualTour/images/com_653x258s.jpg",
+        "quietSpot" : "Not Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -448,7 +645,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "CON",
-        "name": "Constans Theatre"
+        "name": "Constans Theatre",
+	"address": "687 McCarty Dr, Gainesville, FL 32603, United States",
+        "indoors": "Indoor",
+	"image": "https://arts.ufl.edu/site/assets/files/153395/cota_stock_photo_-_nadine_mcguire_pavilion.-thumbnail.jpg",
+        "quietSpot" : "Not Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -462,7 +670,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "CRR",
-        "name": "Carr Hall"
+        "name": "Carr Hall",
+	 "address": "Gainesville, FL 32603, United States",
+        "indoors": "Indoor",
+	"image": "http://web.uflib.ufl.edu/ufarch/carr.jpg",
+        "quietSpot" : "Not Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -476,7 +695,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "CSE",
-        "name": "Computer Science Engineering"
+        "name": "Computer Science Engineering",
+	"address": "432 Newell Dr, Gainesville, FL 32611, United States",
+        "indoors": "Indoor & Outdoor",
+	"image": "https://www.eng.ufl.edu/marcom/wp-content/uploads/sites/14/2016/11/cise_building.png",
+        "quietSpot" : "Including Quiet Spot & Group Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -490,21 +720,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "DAU",
-        "name": "Dauer Hall - Arts & Sciences"
-      },
-      "geometry": {
-        "coordinates": [
-               -82.3439549,
-	    29.64926969999999
-        ],
-        "type": "Point"
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-        "code": "DAU",
-        "name": "Dauer Hall - Arts & Sciences"
+        "name": "Dauer Hall - Arts & Sciences",
+	"address": "Gainesville, FL 32611, United States",
+        "indoors": "Indoor & Outdoor",
+	"image": "http://web.uflib.ufl.edu/ufarch/dauer7.jpg",
+        "quietSpot" : "Not Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -518,7 +745,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "DSB",
-        "name": "Dental Science Building"
+        "name": "Dental Science Building",
+	"address": "Dental Science Bldg, Iowa City, IA 52242, USA",
+	"indoors": "Indoor",
+	"image": "https://c8.alamy.com/comp/MM2Y50/science-building-at-university-iowa-city-1925-MM2Y50.jpg",
+        "quietSpot" : "Not Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -532,7 +770,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "ESL",
-        "name": "Environmental Stress Lab"
+        "name": "Environmental Stress Lab",
+	"address": "Gainesville, FL 32611, United States",
+        "indoors": "Outdoor",
+	"image": "https://i.ibb.co/q5q4H3C/Screen-Shot-2018-12-01-at-11-23-03-AM.png",
+        "quietSpot" : "Not Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -546,7 +795,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "EYN",
-        "name": "Entomology - Nematology"
+        "name": "Entomology - Nematology",
+	"address": "1881 Natural Area Dr, Gainesville, FL 32608, United States",
+        "indoors": "Indoor",
+	"image": "https://directory.ifas.ufl.edu/images/uf_bldg/original/B0970.jpg",
+        "quietSpot" : "Not Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -560,7 +820,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "FAA",
-        "name": "Fine Arts A"
+        "name": "Fine Arts A",
+	"address": "1389 Stadium Rd, Gainesville, FL 32611, United States",
+	"indoors": "Indoor & Outdoor",
+	"image": "http://web.uflib.ufl.edu/ufarch/fineartsbridge.jpg",
+        "quietSpot" : "Not Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -574,7 +845,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "FAB",
-        "name": "Fine Arts B (Gallery)"
+        "name": "Fine Arts B (Gallery)",
+	"address": "400 SW 13th St, Gainesville, FL 32611, United States",
+	"indoors": "Indoor & Outdoor",
+	"image": "http://web.uflib.ufl.edu/ufarch/fineartsb.jpg",
+        "quietSpot" : "Not Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -588,7 +870,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "FAC",
-        "name": "Fine Arts C"
+        "name": "Fine Arts C",
+	"address": "Gainesville, FL 32611, United States",
+        "indoors": "Indoor & Outdoor",
+	"image": "http://web.uflib.ufl.edu/ufarch/fac2.jpg",
+        "quietSpot" : "Not Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -602,7 +895,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "FAD",
-        "name": "Fine Arts D"
+        "name": "Fine Arts D",
+	"address": "101 Fine Arts Bldg A, Gainesville, FL 32611, United States",
+        "indoors": "Indoor & Outdoor",
+        "image": "http://web.uflib.ufl.edu/ufarch/fineartsd.jpg",
+        "quietSpot" : "Not Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -616,7 +920,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "FIF",
-        "name": "Fifield Hall"
+        "name": "Fifield Hall",
+	"address": "Fifield Hall, Gainesville, FL 32611, United States",
+        "indoors": "Indoor",
+        "image": "http://web.uflib.ufl.edu/ufarch/fifield.jpg",
+        "quietSpot" : "Not Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -630,7 +945,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "FIRL",
-        "name": "Plant Pathology Research Lab 1"
+        "name": "Plant Pathology Research Lab 1",
+	"address": "155 Research Rd, Quincy, FL 32351, United States",
+        "indoors": "Indoor & Outdoor",
+	"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqOONXmK4HkpgxuICnAxwPGP7Zzst95jqzut7zOrwFnpe1ydFE",
+        "quietSpot" : "Not Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -644,7 +970,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "FLAV",
-        "name": "Flavet Field"
+        "name": "Flavet Field",
+	"address": "Woodlawn Dr, Gainesville, FL 32603, United States",
+	"indoors": "Outdoor",
+	"image": "http://recsports.ufl.edu/images/made/uploads/images/IMG_2290_512_341_80.jpg",
+        "quietSpot" : "Not Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -658,7 +995,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "FLG",
-        "name": "Florida Gym"
+        "name": "Florida Gym",
+	"address": "Florida Gymnasium, Gainesville, FL 32603, United States",
+        "indoors": "Indoor",
+	"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxU1Cn7oWZAXqgMsGzhNnUHlyyuFhzwbAbWJUm_hVu3LQaNigJhA",
+        "quietSpot" : "Including Quiet Spot & Group Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -672,7 +1020,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "FLI",
-        "name": "Keene-Flint Hall"
+        "name": "Keene-Flint Hall",
+	"address": "80 Newell Dr, Gainesville, FL 32603, United States",
+        "indoors": "Indoor",
+	"image": "https://historic.facilities.ufl.edu/Images/keene_flint/keene.jpg",
+        "quietSpot" : "Including Quiet Spot & Group Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -686,7 +1045,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "FLO",
-        "name": "Griffin-Floyd Hall"
+        "name": "Griffin-Floyd Hall",
+	"address": "230 Newell Dr, Gainesville, FL 32611, United States",
+	"indoors": "Indoor",
+	"image": "https://historic.facilities.ufl.edu/Images/griffin_floyd/griffin.jpg",
+        "quietSpot" : "Including Quiet Spot & Group Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -700,7 +1070,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "FSN",
-        "name": "Food Science and Human Nutrition"
+        "name": "Food Science and Human Nutrition",
+	 "address": "Gainesville, FL 32611, United States",
+	"indoors": "Indoor",
+	"image": "https://fshn.ifas.ufl.edu/media/fshn/images/DSC_0013-621x417.jpg",
+        "quietSpot" : "Including Quiet Spot & Group Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -714,7 +1095,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "GER",
-        "name": "Gerson Hall"
+        "name": "Gerson Hall",
+	"address": "1368 Union Rd, Gainesville, FL 32611, United States",
+	"indoors": "Indoor",
+	"image": "https://warrington.ufl.edu/about/wp-content/uploads/sites/19/2018/04/gerson-hall-south-16x9-960x540.jpg",
+        "quietSpot" : "Including Quiet Spot & Group Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -728,8 +1120,19 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "GRAO",
-        "name": "Graham Hall"
-      },
+        "name": "Graham Hall",
+	"address": "Gainesville, FL 32611, United States",
+        "indoors": "Indoor",
+ 	"image": "https://i.ibb.co/VjnQc9p/Screen-Shot-2018-12-01-at-12-00-50-PM.png",
+        "quietSpot" : "Not Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
+	},
       "geometry": {
         "coordinates": [
                  -82.3502568,
@@ -742,7 +1145,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "GRI",
-        "name": "Grinter Hall - The Graduate School"
+        "name": "Grinter Hall - The Graduate School",
+	"address": "1523 Union Rd, Gainesville, FL 32611, United States",
+	"indoors": "Indoor",
+	"image": "https://i.ibb.co/YyXdrC0/Screen-Shot-2018-12-01-at-12-07-15-PM.png",
+        "quietSpot" : "Not Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -756,7 +1170,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "HARN",
-        "name": "Harn Museum of Art"
+        "name": "Harn Museum of Art",
+	"address": "3259 Hull Rd, Gainesville, FL 32607, United States",
+	"indoors": "Indoor",
+	"image": "http://www.harn.ufl.edu/sites/default/files/img/buildingfront-homepage_0.jpg",
+        "quietSpot" : "Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -770,7 +1195,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "HCAD",
-        "name": "Health Science Center Admin. Services"
+        "name": "Health Science Center Admin. Services",
+	"address": "653 W 8th St, Jacksonville, FL 32209, United States",
+	"indoors": "Indoor",
+	"image": "https://library-demo.sites.medinfo.ufl.edu/files/2012/06/HSCLibrary_685px.jpg",
+        "quietSpot" : "Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -784,7 +1220,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "HDC",
-        "name": "Human Development Center"
+        "name": "Human Development Center",
+	"address": "1401 E 1st St, Duluth, MN 55805, United States",
+	"indoors": "Indoor",
+	"image": "https://ufhealth.org/sites/default/files/styles/location_feature/public/Shands-UF-front.jpg?itok=fVevdwpV",
+        "quietSpot" : "Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -798,7 +1245,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "HGS",
-        "name": "Hough Hall"
+        "name": "Hough Hall",
+	"address": "Hough Hall, Gainesville, FL 32611, USA",
+	"indoors": "Indoor",
+	"image": "http://rowearchitects.com/wp-content/uploads/2015/06/dda5bcdf68f28ff16e361ce9ce77f9c9.jpg",
+        "quietSpot" : "Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -812,7 +1270,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "HOL",
-        "name": "Holland Law Center"
+        "name": "Holland Law Center",
+	"address": "Spessard L. Holland Law Center, Gainesville, FL 32603, USA",
+	"indoors": "Indoor",
+	"image": "http://web.uflib.ufl.edu/ufarch/holland.jpg",
+        "quietSpot" : "Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -826,7 +1295,18 @@ var geojson = [
       "type": "Feature",
       "properties": {
         "code": "HPNP",
-        "name": "Health Professions, Nursing and Pharmacy Complex"
+        "name": "Health Professions, Nursing and Pharmacy Complex",
+	"indoors": "Indoor",
+	"address": "Health Professions, Nursing, Pharmacy Bldg, 1225 Center Dr, Gainesville, FL 32603, USA",
+	"image": "https://phhp-research.sites.medinfo.ufl.edu/files/2011/01/building1a.jpg",
+        "quietSpot" : "Quiet Spot",
+        icon: {
+        iconUrl: 'http://www.clker.com/cliparts/g/R/z/I/u/o/map-pin-md.png',
+        iconSize: [20,30],
+        iconAnchor: [0.0],
+        popupAnchor: [0, -25],
+        className: 'dot'
+        }
       },
       "geometry": {
         "coordinates": [
@@ -2028,7 +2508,7 @@ var geojson = [
     }
 ];
 
-var mapGeo = L.mapbox.map('map-popups-js').setView([29.642526, -82.356317], 15);
+var mapGeo = L.mapbox.map('map-popups-js').setView([29.642526, -82.356317], 13);
 L.mapbox.styleLayer('mapbox://styles/yingwenhuang/cjp4v1m8k02b82sqxy3ugknc4').addTo(mapGeo);
 var myLayer = L.mapbox.featureLayer().addTo(mapGeo);
 myLayer.on('layeradd', function(e) {
