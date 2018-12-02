@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/Shop-item-1.css">
     <link rel="stylesheet" href="assets/css/Shop-item.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+
   <script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
   <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
   <style>
@@ -41,16 +42,15 @@
   </style>
 </head>
 <body>
+<script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
 <div>
 	<searchBar>
-		<input type="text" id="input" class="search" placeholder="Search Here..." style="width:200px;height:20px;font-size:20px;" />
-		<input type="submit" id="submit" class="submit" value="Search" style="width:80px;height:20px;font-size:20px;"/><br>
-			<div>
-				<ul class="list-group" id="result"></ul>
+		<input id="search" placeholder="Search Here..." style="width:200px;height:20px;font-size:20px;" />
 			<br/>
 			<br/>
 			<br/>
-			</div>
 			<div>
 				<display1>
 					<label for="Code">Code:</lable>
@@ -3491,12 +3491,32 @@ myLayer.on('layeradd', function(e) {
 myLayer.setGeoJSON(geojson);
 mapGeo.scrollWheelZoom.disable();
 
+var code;
+var name;
+// Event on clicking the element on the map
 myLayer.on('click', function(e) {
 	var marker = e.layer;
 	var feature = marker.feature;
-	document.getElementById('displayCode').innerHTML = feature.properties.code;
-	document.getElementById('displayName').innerHTML = feature.properties.name;
+	code = feature.properties.code;
+	name = feature.properties.name;
+	document.getElementById('displayCode').innerHTML = code;
+	document.getElementById('displayName').innerHTML = name;
 });
+
+// live searching on the icon
+$('#search').keyup(search);
+function search() {
+    // get the value of the search input field
+    var searchString = $('#search').val().toLowerCase();
+
+    myLayer.setFilter(showState);
+
+    // here we're simply comparing the 'state' property of each marker
+    // to the search string, seeing whether the former contains the latter.
+    function showState(feature) {
+        return feature.properties.code.toLowerCase().indexOf(searchString) !== -1 || feature.properties.name.toLowerCase().indexOf(searchString) !== -1;
+    }
+}
 
 </script>
 </body>
