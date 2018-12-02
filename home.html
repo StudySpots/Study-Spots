@@ -20,8 +20,8 @@
   <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
   <style>
     body {
-      margin: 2;
-      padding :1;
+      margin: 0;
+      padding :0;
     }
     .map {
       position: absolute;
@@ -30,9 +30,41 @@
       width: 70%;
       height: 80%;
     }
+    searchBar {
+	position: absolute;
+	right: 50px;
+	padding-top: 100px;
+    }
+    label {
+   	font-size: 12px;
+   }
   </style>
 </head>
 <body>
+<div>
+	<searchBar>
+		<input type="text" id="input" class="search" placeholder="Search Here..." style="width:200px;height:20px;font-size:20px;" />
+		<input type="submit" id="submit" class="submit" value="Search" style="width:80px;height:20px;font-size:20px;"/><br>
+			<div>
+				<ul class="list-group" id="result"></ul>
+			<br/>
+			<br/>
+			<br/>
+			</div>
+			<div>
+				<display1>
+					<label for="Code">Code:</lable>
+					<label id="displayCode" />
+				</display1>
+			</div>
+			<div>
+				<display2>
+					<label for="Name">Name:</lable>
+					<label id="displayName" />    
+				</display2>
+			</div>
+	</searchBar>
+<div>
 <section class="title-header">
         <h1 style="color: rgb(52, 58, 64);">Study Spots</h1>
         <h2 style="color: rgb(52, 58, 64);">Find a place to learn easily.</h2>
@@ -3458,6 +3490,14 @@ myLayer.on('layeradd', function(e) {
 });
 myLayer.setGeoJSON(geojson);
 mapGeo.scrollWheelZoom.disable();
+
+myLayer.on('click', function(e) {
+	var marker = e.layer;
+	var feature = marker.feature;
+	document.getElementById('displayCode').innerHTML = feature.properties.code;
+	document.getElementById('displayName').innerHTML = feature.properties.name;
+});
+
 </script>
 </body>
 </html>
