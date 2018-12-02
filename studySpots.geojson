@@ -1,0 +1,2350 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "AAF",
+        "name": "Academic Advisement - Farrior Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+          -82.34563860000002, 29.6502323
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "ANS",
+        "name": "Animal Science",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+          -82.351627,
+	 29.631197
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "ARB",
+        "name": "Academic Research - Health Sciences Center",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+           -82.343777,
+	  29.6399441
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "ARB",
+        "name": "Academic Research - Health Sciences Center",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+           -82.343777,
+	  29.6399441
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "ARCH",
+        "name": "Architecture",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+           -82.3403431,
+	  29.6477756
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "ASF",
+        "name": "Elmore Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+            -82.3661789,
+	   29.6434801
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "AUD",
+        "name": "University Auditorium",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+             -82.3428428,
+	    29.649026
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BAR",
+        "name": "Bartram Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+              -82.34440939999999,
+	  29.6439198
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BEC",
+        "name": "Beaty Commons",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+              -82.3404853,
+	  29.6441511
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BEN",
+        "name": "Beaty Commons",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+              -82.3549302,
+	 29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BGH",
+        "name": "Bruton-Geer Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+              -82.3590286,
+	 29.6492321
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BLK",
+        "name": "Black Hall - Environmental Science",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+              -82.3484143,
+	 29.6484088
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BME",
+        "name": "Broad Biomedical Engineering Building",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+               -82.3775697,
+	 28.5663939
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BMS",
+        "name": "Biomedical Sciences",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+               -82.3455827,
+	 29.6406329
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BRO",
+        "name": "Broward Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+               -82.3420708,
+	 29.6465352
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BRT",
+        "name": "Bryant Space Science Center",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+               -82.34574870000002,
+	 29.6488872
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BRY",
+        "name": "Bryan Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+               -82.3402381,
+	 29.65131189999999
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BSU",
+        "name": "Veterinary Medicine - Basic Sciences",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+               -88.22091189999999,
+	 40.0929927
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "BSU",
+        "name": "Veterinary Medicine - Basic Sciences",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+               -88.22091189999999,
+	 40.0929927
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "CAR",
+        "name": "Carleton Auditorium",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+               -82.34172290000001,
+	 29.6490716
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "CBD",
+        "name": "Classroom Building 105",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+               -82.3429757,
+	 29.6529864
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "CGRC",
+        "name": "Cancer/Genetics Research",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+               -82.3516905,
+	 29.6381861
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "CHE",
+        "name": "Chemical Engineering",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+              -82.3549302,
+	 29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "CLB",
+        "name": "Chemistry Laboratory Building",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+              -82.344152,
+	  29.6508873
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "COM",
+        "name": "Communicore - Health Sciences Center",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+              -82.343777,
+	  29.6399441
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "CON",
+        "name": "Constans Theatre",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+              -82.346482,
+	  29.6460125
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "CRR",
+        "name": "Carr Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+              -82.3549302,
+	   29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "CSE",
+        "name": "Computer Science Engineering",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+              -82.344042,
+	   29.64811109999999,
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "DAU",
+        "name": "Dauer Hall - Arts & Sciences",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+               -82.3439549,
+	    29.64926969999999
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "DAU",
+        "name": "Dauer Hall - Arts & Sciences",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+               -82.3439549,
+	    29.64926969999999
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "DSB",
+        "name": "Dental Science Building",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                -91.55115090000001,
+	    41.662549
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "ESL",
+        "name": "Environmental Stress Lab",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                -82.3646433,
+	     29.6354601
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "EYN",
+        "name": "Entomology - Nematology",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                -82.3673518,
+	     29.63483320000001
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "FAA",
+        "name": "Fine Arts A",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                -82.3403431,
+	     29.6477756
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "FAB",
+        "name": "Fine Arts B (Gallery)",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.3396763,
+	     29.6482567
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "FAC",
+        "name": "Fine Arts C",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.34041909999999,
+	      29.6477604
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "FAD",
+        "name": "Fine Arts D",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.3405634,
+	      29.6481722
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "FIF",
+        "name": "Fifield Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.36116679999999,
+	      29.63838730000001
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "FIRL",
+        "name": "Plant Pathology Research Lab 1",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -84.5928081,
+	      30.5450208
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "FLAV",
+        "name": "Flavet Field",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.3543578,
+	      29.6466255
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "FLG",
+        "name": "Florida Gym",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                    -82.34724109999999,
+	      29.64951450000001
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "FLI",
+        "name": "Keene-Flint Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.34405009999999,
+	      29.6513768
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "FLO",
+        "name": "Griffin-Floyd Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.34367999999999,
+	      29.6500715
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "FSN",
+        "name": "Food Science and Human Nutrition",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.3549302,
+	       29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "GER",
+        "name": "Gerson Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.3401306,
+	       29.65075890000001
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "GRAO",
+        "name": "Graham Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.3502568,
+	        29.6458103
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "GRI",
+        "name": "Grinter Hall - The Graduate School",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                -82.34205949999999,
+	        29.6492787
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "HARN",
+        "name": "Harn Museum of Art",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                -82.34205949999999,
+	        29.6492787
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "HCAD",
+        "name": "Health Science Center Admin. Services",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                -81.6635251,
+	        30.3470314
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "HDC",
+        "name": "Human Development Center",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -92.0818267,
+	        46.8013063
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "HGS",
+        "name": "Hough Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.3406662,
+	        29.6504049
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "HOL",
+        "name": "Holland Law Center",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.35915059999999,
+	        29.6498009
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "HPNP",
+        "name": "Health Professions, Nursing and Pharmacy Complex",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3452497,
+	         29.6416764
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "HUB",
+        "name": "The Hub - International Studies Center",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.34548769999999,
+	         29.6480995
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "HUME",
+        "name": "Hume Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.3525058,
+	        29.644475
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "IHLC",
+        "name": "Institute of Hispanic-Latino Cultures",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.3549302,
+	         29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "IHLC",
+        "name": "Institute of Hispanic-Latino Cultures",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.3549302,
+	         29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "IIT",
+        "name": "IFAS Information Technology",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                    -82.3443187,
+	         29.6465201
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "INF",
+        "name": "Infirmary",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.34652009999999,
+	         29.6495392
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "JENB",
+        "name": "Jennings Hall B",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.34155299999999,
+	          29.6444873
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "KEY",
+        "name": "Keys Complex - Student Housing",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.33802899999999,
+	         29.64918299999999
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "LAR",
+        "name": "Larsen Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.34738279999999,
+	         29.6431067
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "LBW",
+        "name": "Library West",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.3417565,
+	         29.6508246
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "LEI",
+        "name": "Leigh Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.3442503,
+	         29.6504567
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "LIT",
+        "name": "Little Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3407919,
+	          29.648841
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "LSP",
+        "name": "Livestock Pavilion, Webb",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3511053,
+	          29.6339886
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "MAE",
+        "name": "Materials Engineering",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3490228,
+	         29.6476334
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "MAEA",
+        "name": "Mechanical and Aerospace Engineering, Bldg. A",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3549302,
+	         29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "MAT",
+        "name": "Matherly Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3410518,
+	        29.65163059999999
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "MBI",
+        "name": "McKnight Brain Institute",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3549302,
+	        29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "MCCA",
+        "name": "McCarty Hall, Bldg. A",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3453474,
+	        29.6466758
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "MCCB",
+        "name": "McCarty Hall, Bldg. B",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.34492809999999,
+	         29.6467422
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "MCCC",
+        "name": "McCarty Hall, Bldg. C",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.3453474,
+	         29.6466758
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "MCCD",
+        "name": "McCarty Hall, Bldg. D",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.3443186,
+	          29.6465202
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "MCG",
+        "name": "McGuire Center for Lepidoptera Research",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3712611,
+	         29.6358453
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "MCSB",
+        "name": "Microbiology and Cell Science",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3628019,
+	         29.6399739
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "MSL",
+        "name": "Marston Science Library",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.3439199,
+	         29.6479572
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "MUB",
+        "name": "Music Building",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3425575,
+	         29.6481303
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "MUS",
+        "name": "Florida Museum of Natural History - Dickinson Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3438233,
+	         29.6445166
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "NEB",
+        "name": "Engineering Building",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3485106,
+	         29.6483809
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "NEW",
+        "name": "Newell Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.34505709999999,
+	         29.6490871
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "NPB",
+        "name": "Physics Building",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3496895,
+	        29.6437825
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "NRB",
+        "name": "Nuclear Reactor",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3549302,
+	        29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "NRG",
+        "name": "Norman Gymnasium",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -97.4448615,
+	        35.220559
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "NRN",
+        "name": "Norman Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3381103,
+	        29.6469686
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "NRNA",
+        "name": "Norman Hall Addition",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.33768599999999,
+	        29.64664469999999
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "NSC",
+        "name": "Nuclear Sciences Center",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -96.3629133,
+	        30.5810924
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "NUL",
+        "name": "Animal Nutrition Labratory",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -88.22516139999999,
+	        40.10381579999999
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "NZH",
+        "name": "Newins-Ziegler Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.345686,
+	        29.64539199999999
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "ODAA",
+        "name": "Office of Development and Alumni Affairs",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.343434,
+	        29.6398626
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "OBS",
+        "name": "Student Observator",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -122.181827,
+	        37.4191274
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PCPA",
+        "name": "Phillips Center for the Performing Arts",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.36930579999999,
+	        29.6352583
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PEA",
+        "name": "Peabody Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3419924,
+	        29.6500771
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PHL",
+        "name": "Phelps Laboratory",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                   -73.8639555,
+	        41.1091195
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PKY",
+        "name": "P. K. Yonge Developmental Research School, 1080 SW 11 Street",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                    -82.3346766,
+	        29.64006539999999
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "POOL",
+        "name": "Florida Pool",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                    -82.3409362,
+	        29.6462255
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "POW",
+        "name": "Powell Hall - New Museum of Natural History",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                    -82.3704006,
+	         29.6358224
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PPD",
+        "name": "Physical Plant Offices",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                     -82.3705092,
+	          29.6443197
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PRL",
+        "name": "Food and Environmental Toxicology Lab",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                     -82.3549302,
+	          29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PSB",
+        "name": "Shands Patient Services",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3423068,
+	          29.6388866
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PSF",
+        "name": "Plant Science Facility",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.3549302,
+	         29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PST",
+        "name": "Particle Sciences and Technology",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -75.37462699999999,
+	         40.671417
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PSY",
+        "name": "Psychology",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.38416389999999,
+	          29.67284690000001
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "PUGH",
+        "name": "Pugh Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.34546309999999,
+	          29.6494289
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "RCD",
+        "name": "Recreation Center Dining",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                    -82.3464309,
+	          29.650204
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "REI",
+        "name": "Reitz Union",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.3476523,
+	          29.6463395
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "RFC",
+        "name": "Recreation and Fitness Center",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.34675969999999,
+	          29.6501107
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "RHN",
+        "name": "Rhines Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.34902249999999,
+	          29.6476341
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "RLA",
+        "name": "Reed Lab",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -71.0979212,
+	           42.31957420000001
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "RL1",
+        "name": "Research Laboratory",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                  -82.371461,
+	           29.634407
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "RNK",
+        "name": "Rinker Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.34316059999999,
+	           29.64695920000001
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "ROG",
+        "name": "Rogers Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                   -82.3449972,
+	           29.6449409
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "ROL",
+        "name": "Rols Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                    -82.3444921,
+	           29.6492897
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "SBH",
+        "name": "Steinbrenner Band Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                     -82.3549302,
+	           29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "SIS",
+        "name": "Sisler Hall - Chemistry Research Bldg",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                     -82.34416809999999,
+	            29.6499992
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "SMA",
+        "name": "Library East, Smathers",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                      -82.34281469999999,
+	            29.6515513
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "SOC",
+        "name": "Stephen C. O'Connell Center Pool",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                -82.3409362,
+	            29.6462255
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "SPRC",
+        "name": "Springs Commons Building",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                -82.34048229999999,
+	          29.6423855
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "SPRT",
+        "name": "IFAS Support Services",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.3443187,
+	          29.6465201
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "SSB",
+        "name": "Criser Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.34160899999999,
+	           29.6501881
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "STA",
+        "name": "Stadium, Ben Hill Griffin",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+                 -82.3485788,
+	           29.6499357
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "STZ",
+        "name": "Stuzin Hall - Business Building",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+	            -82.3411782,
+		29.650815
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "SWC",
+        "name": "SW Recreation Complex",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+	          -82.8187822,
+		27.8920203
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "THC",
+        "name": "Teaching Hospital and Clinics, Shands",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+	         -82.3928509,
+		29.659113
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "TIG",
+        "name": "Tigert Hall - UF Administration",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+	        -82.3549302,
+		29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "TUR",
+        "name": "Turlington Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+	         -82.343747,
+		29.6489642
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "UST",
+        "name": "Ustler Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+	        -82.3468705,
+		29.65044320000001
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "VAN",
+        "name": "Van Fleet Hall - ROTC",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+	        -82.3511003,
+		29.6485548
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "VET",
+        "name": "Veterinary Science",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+	         -82.3502601,
+		29.6332527
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "VMAW",
+        "name": "Veterinary Medicine - Academic Wing",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+	         -82.3487936,
+		29.6338194
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "WAL",
+        "name": "Walker Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+	        -82.34153959999999,
+		29.64937919999999
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "WALC",
+        "name": "Wallace Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+	         -85.9915726,
+		33.9958184
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "WAU",
+        "name": "Lake Wauburg",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+	          -82.30313,
+		29.5298432
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "WEIL",
+        "name": "Weil Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+	          -82.3485109,
+		29.64838079999999
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "WEIM",
+        "name": "Weimer Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+	   -82.34752759999999,
+		29.6478351
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "WM",
+        "name": "Williamson Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+	  -82.3549302,
+		 29.6436325
+        ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "WSFL",
+        "name": "Weed Sciences Field Building",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+	  -82.36376249999999,
+		 29.6391841
+      ],
+        "type": "Point"
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "code": "YON",
+        "name": "Yon Hall",
+        "upvote": 0,
+        "downvote": 0,
+        "isQuiet": null
+      },
+      "geometry": {
+        "coordinates": [
+	  -82.3478071,
+		29.6498808
+       ],
+        "type": "Point"
+      }
+    }
+   ],
+  "type": "FeatureCollection"
+}
