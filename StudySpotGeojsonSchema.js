@@ -6,12 +6,15 @@ var mongoose = require('mongoose');
 var StudySpotSchema = new Schema({
   /* your code here */
   type: {type: Feature},
-  name: { type: String, required: true, unique: true } ,
+  name: { type: String, required: true, unique: true },
   code: { type: String, required: true, unique: true },
+  upvote: {type: Number, unique: true},
+  downvote: {type: Number, unique: true},
+  isQuiet: Boolean,
   //address: { type: String, unique: true },
   coordinates: {
 	  { type: Number, unique: true },
-	  { type: Number, unique: true }  
+	  { type: Number, unique: true }
   },
   created_at: Date,
   updated_at: Date
@@ -26,7 +29,7 @@ StudySpotSchema.pre('save', function(next) {
   if(!this.created_at)
 	  this.created_at = current_Date;
   next();
-  
+
 });
 
 /* Use your schema to instantiate a Mongoose model */
