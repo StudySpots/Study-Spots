@@ -14,7 +14,7 @@
 
 
 
-4. Open the other terminal window in studyspots and type "npm start"
+4. Type "npm start" to start the server
 
 
 
