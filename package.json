@@ -12,9 +12,12 @@
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.3",
+    "config": "^3.0.0",
     "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
     "mapbox-gl": "^0.51.0",
     "mongoose": "^5.3.11",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "nodemailer": "^4.7.0"
   }
 }

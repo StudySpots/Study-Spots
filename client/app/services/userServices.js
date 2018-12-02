@@ -7,5 +7,9 @@ angular.module('userServices', [])
         return $http.post('/api/users', regData);
     }
 
+    userFactory.setUser = function(){
+    	
+    }
+
     return userFactory;
 });

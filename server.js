@@ -18,7 +18,7 @@ app.use('/api', appRoutes);
 
 //Database Config
 mongoose.set('useCreateIndex', true);
-mongoose.connect('mongodb://localhost:27017/StudySpotsAPP', { useNewUrlParser: true }, function(err){
+mongoose.connect('mongodb://admin:admin44@ds229465.mlab.com:29465/studyspotsusers', { useNewUrlParser: true }, function(err){
     if (err) {
         console.log("Not connected to DB: " + err);
     } else {
@@ -28,7 +28,7 @@ mongoose.connect('mongodb://localhost:27017/StudySpotsAPP', { useNewUrlParser: t
 
 
 app.get('*', function(req,res) {
-    res.sendFile(path.join(__dirname + '/client/app/views/index.html'));
+    return res.sendFile(path.join(__dirname + '/client/app/views/index.html'));
 });
 
 app.listen(port, function() {
