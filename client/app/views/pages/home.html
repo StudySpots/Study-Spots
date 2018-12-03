@@ -19,27 +19,62 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 	<script src='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
 	<link href='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+	
+	 <style>
+    body {
+      margin: 0;
+      padding :0;
+    }
+    .map {
+      position: absolute;
+      top: 10;
+      bottom: 0;
+      width: 70%;
+      height: 80%;
+    }
+    searchBar {
+	position: absolute;
+	left: 1000px;
+	padding-top: 100px;
+    }
+    label {
+   	font-size: 20px;
+   }
+  </style>
 
 </head>
 
 <body>
-    <section class="title-header">
+    <div>
+	<searchBar>
+		<input id="search" placeholder="Search Here...(code, name, or address)" style="width:300px;height:20px;font-size:16px;" /><br>
+		<input id="ifQuiet" type="checkbox" />Quiet Spots<br>
+		<input id="ifIndoor" type="checkbox"/>If Indoor<br>
+		<input id="ifOutdoor" type="checkbox"/>If Outdoor<br>
+			<div>
+				<display1>
+					<label for="Code">Code:</lable>
+					<label id="displayCode" />
+				</display1>
+			</div>
+			<div>
+				<display2>
+					<label for="Name">Name:</lable>
+					<label id="displayName" />    
+				</display2>
+			</div>
+	</searchBar>
+<div>
+<section class="title-header">
         <h1 style="color: rgb(52, 58, 64);">Study Spots</h1>
         <h2 style="color: rgb(52, 58, 64);">Find a place to learn easily.</h2>
     </section>
-    <section class="search-bar"><input type="search" placeholder="Search for a Study Spot..."></section>
-    <div>
+    
+	<div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12"></div>
-				<div id='map' style='width: 1200px; height: 600px;'></div>
-				<script>
-					mapboxgl.accessToken = 'pk.eyJ1IjoieWluZ3dlbmh1YW5nIiwiYSI6ImNqb2dsdGZnbTBnanEzcXF2bDJseDgzaG8ifQ.k4xY67lG4MkbzMFDHjDK5A';
-					var map = new mapboxgl.Map({
-						container: 'map',
-						style: 'mapbox://styles/yingwenhuang/cjoglxdir06o82sml79dh21jc'
-					});
-				</script>
+				<div id='mapid' style='width: 1200px; height: 600px;'></div>
 
             </div>
         </div>
