@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>UF Study Spots</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <meta charset=utf-8 />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Study Sports</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/FAQ-Frequentlly-Asked-Questions-1.css">
     <link rel="stylesheet" href="assets/css/FAQ-Frequentlly-Asked-Questions.css">
@@ -17,17 +16,32 @@
     <link rel="stylesheet" href="assets/css/Shop-item-1.css">
     <link rel="stylesheet" href="assets/css/Shop-item.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-	<script src='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
-	<link href='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
 
+  <script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+  <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+  <style>
+    body {
+      margin: 0;
+      padding :0;
+    }
+    .map {
+      position: absolute;
+      top: 10;
+      bottom: 0;
+      width: 70%;
+      height: 80%;
+    }
+    searchBar {
+	position: absolute;
+	left: 1000px;
+	padding-top: 100px;
+    }
+    label {
+   	font-size: 20px;
+   }
+  </style>
 </head>
-
 <body>
-    <section class="title-header">
-        <h1 style="color: rgb(52, 58, 64);">Study Spots</h1>
-        <h2 style="color: rgb(52, 58, 64);">Find a place to learn easily.</h2>
-    </section>
-
 <script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
 <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
 <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
@@ -3460,6 +3474,7 @@ var geojson = [
       }
     }
 ];
+
 var mapGeo = L.mapbox.map('map-popups-js').setView([29.642526, -82.356317], 14);
 L.mapbox.styleLayer('mapbox://styles/yingwenhuang/cjp4v1m8k02b82sqxy3ugknc4').addTo(mapGeo);
 var myLayer = L.mapbox.featureLayer().addTo(mapGeo);
@@ -3475,6 +3490,7 @@ myLayer.on('layeradd', function(e) {
 });
 myLayer.setGeoJSON(geojson);
 mapGeo.scrollWheelZoom.disable();
+
 // code & name are the valuable
 // to store the code & name after searching
 // used to find the corresponding element in the json in the mlab
@@ -3489,12 +3505,15 @@ myLayer.on('click', function(e) {
 	document.getElementById('displayCode').innerHTML = code;
 	document.getElementById('displayName').innerHTML = name;
 });
+
 // live searching by getting the user text input
 $('#search').keyup(search);
 function search() {
     // get the value of the search input field
     var searchString = $('#search').val().toLowerCase();
+
     myLayer.setFilter(showState);
+
     // here we're simply comparing the 'state' property of each marker
     // to the search string, seeing whether the former contains the latter.
     function showState(feature) {
@@ -3502,6 +3521,7 @@ function search() {
 		|| feature.properties.address.toLowerCase().indexOf(searchString) !== -1;
     }
 }
+
 // live searching by using three checkboxes
 $(document).ready(function(){
 	$("input:checkbox").change(function(){
@@ -3564,7 +3584,7 @@ $(document).ready(function(){
 		}
 	});
 });
+
 </script>
 </body>
-
 </html>
