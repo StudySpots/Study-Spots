@@ -83,7 +83,7 @@ const emailTemplate = `
 module.exports = {
 	sendVerifcationEmail: function(user, callback){
 		let emailContent = emailTemplate.replace("{{VERIFY_LINK}}", 
-			"http://localhost:8080/api/verify_email?token="+user.token
+			"https://uf-study-spots.herokuapp.com/api/verify_email?token="+user.token
 		);
 
 		let mailOptions = {
@@ -95,8 +95,12 @@ module.exports = {
 		transporter.sendMail(mailOptions, (err, info) => {
 			if(err){
 				callback(err, null);
+				console.log(err);
+			} else {
+				console.log(err);
+				callback(null, true);
+				console.log(err);
 			}
-			callback(null, true);
 		});
 	}
 }
