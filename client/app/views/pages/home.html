@@ -1,64 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset=utf-8 />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <title>Study Sports</title>
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/FAQ-Frequentlly-Asked-Questions-1.css">
-    <link rel="stylesheet" href="assets/css/FAQ-Frequentlly-Asked-Questions.css">
-    <link rel="stylesheet" href="assets/css/Google-Style-Login.css">
-    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
-    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
-    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Registration-Form.css">
-    <link rel="stylesheet" href="assets/css/Shop-item-1.css">
-    <link rel="stylesheet" href="assets/css/Shop-item.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-<script src="assets/js/angular.js"></script>
-    <script src="assets/js/angular-route.js"></script>
-    <script src="app/app.js"></script>
-    <script src="app/routes.js"></script>
-    <script src="app/controllers/userController.js"></script>
-    <script src="app/services/userServices.js"></script>
-    <script src="app/controllers/mainController.js"></script>
-    <script src="app/controllers/homeController.js"></script>
-    <script src="app/services/authServices.js"></script>
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css' rel='stylesheet' />
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>  
-<script src="https://code.angularjs.org/1.6.9/angular.js"></script>
-  <script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
-  <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
-  <style>
-    body {
-      margin: 0;
-      padding :0;
-    }
-    .map {
-      position: absolute;
-      top: 10;
-      bottom: 0;
-      width: 70%;
-      height: 80%;
-    }
-    searchBar {
-	position: absolute;
-	left: 1000px;
-	padding-top: 300px;
-    }
-    label {
-   	font-size: 20px;
-   }
-  </style>
-</head>
 <body ng-controller="homeController">
-<script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
-<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
-<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
-<div>
-	<searchBar>
+<section class="title-header">
+        <h1 style="color: rgb(52, 58, 64);">Study Spots</h1>
+        <h2 style="color: rgb(52, 58, 64);">Find a place to learn easily.</h2>
+    </section>
+		<div id='map-popups-js' class='map' ng-model="map"> </div>
+		<searchBar>
 		<input id="search" placeholder="Search Here...(code or name)" style="width:300px;height:20px;font-size:16px;" /><br>
 		<input id="ifQuiet" type="checkbox" />Quiet Spots<br>
 		<input id="ifIndoor" type="checkbox"/>If Indoor<br>
@@ -75,12 +23,7 @@
 					<label id="displayName" />    
 				</display2>
 			</div>
-	</searchBar>
-<div>
-<section class="title-header">
-        <h1 style="color: rgb(52, 58, 64);">Study Spots</h1>
-        <h2 style="color: rgb(52, 58, 64);">Find a place to learn easily.</h2>
-    </section>
-<div id='map-popups-js' class='map' ng-model="map"> </div>
+		</searchBar>
+
 </body>
 </html>
