@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Study Spots</title>
+    <title>Study Spots UF</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/FAQ-Frequentlly-Asked-Questions-1.css">
@@ -64,8 +64,9 @@
 </head>
 
 <body ng-app="userApp" ng-controller="mainCtrl as main">
+	<link rel="shortcut icon" type="assets/img/favicon.ico" href="/favicon.ico"/>
     <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
-    <div class="container"><a href="/" class="navbar-brand text-monospace"><img src="assets/img/uf-logo_205x40.png" /></a><button data-toggle="collapse" data-target="#navcol-1" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <div class="container"><a href="/" class="navbar-brand text-monospace"><img src="assets/img/logo_205x40.png" /></a><button data-toggle="collapse" data-target="#navcol-1" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
         <div
             class="collapse navbar-collapse" id="navcol-1">
             <ul class="nav navbar-nav flex-grow-1 justify-content-end">
@@ -75,9 +76,10 @@
                 <li role="presentation" class="nav-item"><a class="nav-link active" ng-if="main.email"> {{main.email}} (<span ng-click="main.logoutUser()">Logout</span>)</a></li>
                 
             </ul>
+		</div>
     </div>
-    </div>
-</nav>
+	</nav>
+	<section class="spacer"></section>
 
 <div ng-view></div>
     <script src="assets/js/jquery.min.js"></script>
