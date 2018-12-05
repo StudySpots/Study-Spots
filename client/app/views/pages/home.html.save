@@ -84,37 +84,6 @@
 <div id='map-popups-js' class='map' ng-model="map"> </div>
 <script>
        
-var mapGeo = L.mapbox.map('map-popups-js').setView([29.642526, -82.356317], 14);
-L.mapbox.styleLayer('mapbox://styles/yingwenhuang/cjp4v1m8k02b82sqxy3ugknc4').addTo(mapGeo);
-var myLayer = L.mapbox.featureLayer().addTo(mapGeo);
-myLayer.on('layeradd', function(e) {
-  var marker = e.layer,
-    feature = marker.feature;
-  marker.setIcon(L.icon(feature.properties.icon));
-  var content = '<p><strong>' + feature.properties.code + '</p><p>' 
-		+ feature.properties.name + '</p><p>' + feature.properties.address+ '</p><p>' 
-		+ feature.properties.indoors+ '</p><p>' + feature.properties.quietSpot 
-		+ '</strong></p><img src="' + feature.properties.image + '" alt="" style="width:250px;height:150px;">';
-  marker.bindPopup(content);
-});
-myLayer.setGeoJSON(geojson);
-mapGeo.scrollWheelZoom.disable();
-
-// code & name are the valuable
-// to store the code & name after searching
-// used to find the corresponding element in the json in the mlab
-var code;
-var name;
-// Event on clicking the icon on the map
-myLayer.on('click', function(e) {
-	var marker = e.layer;
-	var feature = marker.feature;
-	code = feature.properties.code;
-	name = feature.properties.name;
-	document.getElementById('displayCode').innerHTML = code;
-	document.getElementById('displayName').innerHTML = name;
-});
-
 // live searching by getting the user text input
 $('#search').keyup(search);
 function search() {
