@@ -12,7 +12,7 @@ const transporter = nodemailer.createTransport({
 const emailTemplate = `
 	<BODY>
 
-		      <P align=center style="font-size:25px;color:rgb(104, 145, 162);">Study SpotS</P>
+		      <P align=center style="font-size:25px;color:rgb(104, 145, 162);">Study Spots</P>
 
 		<DIV align=center>
 

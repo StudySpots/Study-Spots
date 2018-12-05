@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html>
 <body ng-controller="homeController">
-<section class="title-header">
+	<section class="title-header">
         <h1 style="color: rgb(52, 58, 64);">Study Spots</h1>
         <h2 style="color: rgb(52, 58, 64);">Find a place to learn easily.</h2>
     </section>
+	<div></div>
 		<div id='map-popups-js' class='map' ng-model="map"> </div>
-		<searchBar>
-		<input id="search" placeholder="Search Here...(code or name)" style="width:300px;height:20px;font-size:16px;" /><br>
-		<input id="ifQuiet" type="checkbox" />Quiet Spots<br>
-		<input id="ifIndoor" type="checkbox"/>If Indoor<br>
-		<input id="ifOutdoor" type="checkbox"/>If Outdoor<br>
-			<div>
-				<display1>
-					<label for="Code">Code:</lable>
-					<label id="displayCode" />
-				</display1>
-			</div>
-			<div>
-				<display2>
-					<label for="Name">Name:</lable>
-					<label id="displayName" />    
-				</display2>
-			</div>
-		</searchBar>
-
+		<span>
+			<searchBar>
+			<input id="search" placeholder="Search Here...(code or name)" style="width:300px;height:20px;font-size:16px;" /><br>
+			<input id="ifQuiet" type="checkbox" />Quiet Spots<br>
+			<input id="ifIndoor" type="checkbox"/>If Indoor<br>
+			<input id="ifOutdoor" type="checkbox"/>If Outdoor<br>
+				<div>
+					<display1>
+						<label for="Code">Code:</lable>
+						<label id="displayCode" />
+					</display1>
+				</div>
+				<div>
+					<display2>
+						<label for="Name">Name:</lable>
+						<label id="displayName" />    
+					</display2>
+				</div>
+			</searchBar>
+		</span>
 </body>
 </html>
