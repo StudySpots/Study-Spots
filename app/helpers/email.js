@@ -12,7 +12,7 @@ const transporter = nodemailer.createTransport({
 const emailTemplate = `
 	<BODY>
 
-		      <P align=center style="font-size:25px;color:rgb(104, 145, 162);">Study Spot</P>
+		      <P align=center style="font-size:25px;color:rgb(104, 145, 162);">Study SpotS</P>
 
 		<DIV align=center>
 
@@ -44,7 +44,7 @@ const emailTemplate = `
 
 		                  <TR>
 
-		                        <TD style="HEIGHT: 450px; PADDING-BOTTOM: 10px; TEXT-ALIGN: left; PADDING-TOP: 75px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; WIDTH: 600px; BACKGROUND-COLOR: #fcfcfc" vAlign=top>Hi Dear,<BR><BR><BR>Thankyou for signing up for Study Spot. <BR><BR><BR>Please click {{VERIFY_LINK}} to verify your email. <BR><BR><BR><BR><BR><BR><BR><BR><BR>
+		                        <TD style="HEIGHT: 450px; PADDING-BOTTOM: 10px; TEXT-ALIGN: left; PADDING-TOP: 75px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; WIDTH: 600px; BACKGROUND-COLOR: #fcfcfc" vAlign=top>Hello there,<BR><BR><BR>Thank you for signing up for Study Spots! <BR><BR><BR>Please click {{VERIFY_LINK}} to verify your email. <BR><BR><BR><BR><BR><BR><BR><BR><BR>
 		                        </TD>
 
 		                  </TR>
@@ -53,17 +53,10 @@ const emailTemplate = `
 
 		      <TD style="HEIGHT: 175px; TEXT-ALIGN: center; MARGIN-TOP: 25px; BACKGROUND-COLOR: #2a2a2a">
 
-		            <SPAN style="COLOR: #c3c3c3"><A style="TEXT-DECORATION: none" href="http://www.studyspot.com">
+		            <SPAN style="COLOR: #c3c3c3"><A style="TEXT-DECORATION: none" href="www.uf-study-spots.herokuapp.com">
 
-		            <SPAN style="COLOR: #c3c3c3"><U>www.studyspot.com</U></SPAN></A><BR><BR> is a place to find study spots.</SPAN>
+		            <SPAN style="COLOR: #c3c3c3"><U>www.uf-study-spots.herokuapp.com</U></SPAN></A><BR><BR>A place to find study spots at UF</SPAN>
 
-		                  <BR style="COLOR: #c3c3c3">
-
-		            <SPAN style="COLOR: #c3c3c3">1600 Pennsylvania Ave NW<BR>Washington, DC 20500<BR><BR></SPAN>
-
-		            <SPAN><A href="https://www.facebook.com/YourFaceBookPage"><IMG style="BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; MARGIN-RIGHT: 5px; opacity: 0.9" alt=Facebook src="http://trailblz.info/license/images/fb-35x35-pixels.png" width=35 longDesc="Facebook - Campaign to Elect Juan Pablo" height=35></A></SPAN>
-
-		            <SPAN><A href="https://www.twitter.com/YourTwitterPage"><IMG style="BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 5px; BORDER-TOP-WIDTH: 0px; opacity: 0.9" alt=Twitter src="http://trailblz.info/license/images/twitter-35x35-pixels.png" width=35 longDesc="Twitter - Campaign to Elect Juan Pablo" height=35></A></SPAN>
 
 		      </TD>
 
