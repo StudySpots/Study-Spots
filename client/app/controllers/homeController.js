@@ -3408,7 +3408,7 @@ angular.module('homeController', ['authServices'])
 ];
 
 	var mapGeo = L.map('map-popups-js').setView([29.642526, -82.356317], 14);
-	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+	var tl =  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
 		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 		maxZoom: 18,
 		style: 'mapbox://styles/yingwenhuang/cjp4v1m8k02b82sqxy3ugknc4',
@@ -3416,6 +3416,38 @@ angular.module('homeController', ['authServices'])
 		accessToken: 'pk.eyJ1IjoieWluZ3dlbmh1YW5nIiwiYSI6ImNqb2dsdGZnbTBnanEzcXF2bDJseDgzaG8ifQ.k4xY67lG4MkbzMFDHjDK5A'
 	}).addTo(mapGeo);
 
+
+var code;
+var name;
+
+var defaultLayer = L.geoJSON(geojson)
+                .bindPopup(function(e){
+                        var content = '<p><strong>' + e.feature.properties.code + '</p><p>'
+                + e.feature.properties.name + '</p><p>' + e.feature.properties.address+ '</p><p>'
+                + e.feature.properties.indoors+ '</p><p>' + e.feature.properties.quietSpot
+                + '</strong></p><img src="' + e.feature.properties.image + '" alt="" style="width:250px;height:150px;">';
+                        return content;
+                })
+                .addTo(mapGeo);
+
+defaultLayer.on('click',function (e){
+                var marker = e.layer;
+                var feature = marker.feature;
+                code = feature.properties.code;
+                name = feature.properties.name;
+                document.getElementById('displayCode').innerHTML = code;
+                document.getElementById('displayName').innerHTML = name;
+});
+
+$('#search').keyup(textSearching);
+function textSearching(){
+	mapGeo.eachLayer(function (layer){
+		if(layer !== tl)
+		{
+			mapGeo.removeLayer(layer);
+	}
+	});
+	
 	var myLayer = L.geoJSON(geojson, {filter: searching})
 		.bindPopup(function(e){
 			var content = '<p><strong>' + e.feature.properties.code + '</p><p>'
@@ -3426,30 +3458,88 @@ angular.module('homeController', ['authServices'])
 		})
 		.addTo(mapGeo);
 
-	function searching(feature, layer){
+	function searching(feature){
 		var searchString = $('#search').val().toLowerCase();
 		if(!searchString)
 			return 1;
 		else
-			return feature.properties.code.toLowerCase().indexOf(searchString) !== -1 || feature.properties.name.toLowerCase().indexOf(searchString) !== -1
-                || feature.properties.address.toLowerCase().indexOf(searchString) !== -1;
+			return feature.properties.code.toLowerCase().indexOf(searchString) !== -1 || feature.properties.name.toLowerCase().indexOf(searchString) !== -1;
 	}
-	// code & name are the valuable
-	// to store the code & name after searching
-	// used to find the corresponding element in the json in the mlab
-	var code;
-	var name;
-	// Event on clicking the icon on the map
-	myLayer.on('click', function(e) {
-        	var marker = e.layer;
-        	var feature = marker.feature;
-        	code = feature.properties.code;
-        	name = feature.properties.name;
-        	document.getElementById('displayCode').innerHTML = code;
-        	document.getElementById('displayName').innerHTML = name;
+	myLayer.on('click',function (e){
+                var marker = e.layer;
+                var feature = marker.feature;
+                code = feature.properties.code;
+                name = feature.properties.name;
+                document.getElementById('displayCode').innerHTML = code;
+                document.getElementById('displayName').innerHTML = name;
+});
+}
+
+$(document).ready(function(){
+	$("input:checkbox").change(function(){
+		var valueQ = "not quiet spot";
+		var valueI = "indoor";
+		var valueO = "outdoor";
+
+		mapGeo.eachLayer(function (layer){
+                if(layer !== tl)
+                {
+                        mapGeo.removeLayer(layer);
+        	}
+        	});
+
+        var myLayer = L.geoJSON(geojson, {filter: searching})
+                .bindPopup(function(e){
+                        var content = '<p><strong>' + e.feature.properties.code + '</p><p>'
+                + e.feature.properties.name + '</p><p>' + e.feature.properties.address+ '</p><p>'
+                + e.feature.properties.indoors+ '</p><p>' + e.feature.properties.quietSpot
+                + '</strong></p><img src="' + e.feature.properties.image + '" alt="" style="width:250px;height:150px;">';
+                        return content;
+                })
+                .addTo(mapGeo);
+		
+	function searching(feature){	
+	if($('#ifQuiet').prop("checked")==true && $('#ifIndoor').prop("checked")==false && $('#ifOutdoor').prop("checked")==false) {
+        			return feature.properties.quietSpot.toLowerCase().indexOf(valueQ.toLowerCase()) == -1;
+		}
+		else if($('#ifQuiet').prop("checked")==false && $('#ifIndoor').prop("checked")==true && $('#ifOutdoor').prop("checked")==false){
+                                return feature.properties.indoors.toLowerCase().indexOf(valueI.toLowerCase()) !== -1;
+		}
+		else if($('#ifQuiet').prop("checked")==false && $('#ifIndoor').prop("checked")==false && $('#ifOutdoor').prop("checked")==true){
+                                return feature.properties.indoors.toLowerCase().indexOf(valueO.toLowerCase()) !== -1;
+                }
+		else if($('#ifQuiet').prop("checked")==true && $('#ifIndoor').prop("checked")==true && $('#ifOutdoor').prop("checked")==false){
+                                return feature.properties.indoors.toLowerCase().indexOf(valueI.toLowerCase()) !== -1 
+					&& feature.properties.quietSpot.toLowerCase().indexOf(valueQ.toLowerCase()) == -1;
+                }
+		else if($('#ifQuiet').prop("checked")==true && $('#ifIndoor').prop("checked")==false && $('#ifOutdoor').prop("checked")==true){
+                                return feature.properties.indoors.toLowerCase().indexOf(valueO.toLowerCase()) !== -1 && 
+					feature.properties.quietSpot.toLowerCase().indexOf(valueQ.toLowerCase()) == -1;
+                }
+		else if($('#ifQuiet').prop("checked")==false && $('#ifIndoor').prop("checked")==true && $('#ifOutdoor').prop("checked")==true){
+                                return feature.properties.indoors.toLowerCase().indexOf(valueI.toLowerCase()) !== -1 
+					&& feature.properties.indoors.toLowerCase().indexOf(valueO.toLowerCase()) !== -1; 
+                }
+		else if($('#ifQuiet').prop("checked")==true && $('#ifIndoor').prop("checked")==true && $('#ifOutdoor').prop("checked")==true){
+                                return feature.properties.indoors.toLowerCase().indexOf(valueI.toLowerCase()) !== -1 
+                                        && feature.properties.indoors.toLowerCase().indexOf(valueO.toLowerCase()) !== -1 
+					&& feature.properties.quietSpot.toLowerCase().indexOf(valueQ.toLowerCase()) == -1;
+                }
+		else{
+                                return 1;
+                        }
+		}
+
+	myLayer.on('click',function (e){
+                var marker = e.layer;
+                var feature = marker.feature;
+                code = feature.properties.code;
+                name = feature.properties.name;
+                document.getElementById('displayCode').innerHTML = code;
+                document.getElementById('displayName').innerHTML = name;
 	});
-
-
+});
+});
 	if(!Auth.getEmail()){
         $location.path('/login');
     }
